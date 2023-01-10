@@ -72,7 +72,7 @@ const productos = [
   {
       id: "joystick-ps4",
       titulo: "Joystick PS4",
-      imagen: "./img/joystickps4.png",
+      imagen: "./img/joystickps4.jpg",
       categoria: {
           nombre: "Sony",
           id: "sony"
