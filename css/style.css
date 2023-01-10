@@ -5,6 +5,7 @@
     --clr-white: #ececec;
     --clr-gray: #e2e2e2;
     --clr-red: #961818;
+    --clr-black: #0d0502;
 }
 
 * {
@@ -58,7 +59,8 @@ aside {
 }
 
 .logo {
-    font-size: 1.8rem;
+    color: var(--clr-main);
+    font-size: 2rem;
 }
 
 .menu {
@@ -87,14 +89,21 @@ aside {
 }
 
 .boton-carrito{
-border: 2px solid var(--clr-main-light);
+border: 2px solid var(--clr-main);
 border-radius: 2rem;
+color: var(--clr-black);
 }
 
 .numerito {
+    color: var(--clr-black);
     padding: .15rem .25rem;
     border-radius: .25rem;
 }
+
+.bi{
+    color: var(--clr-black);
+}
+
 
 .boton-carrito.active .numerito {
     background-color: var(--clr-main);
@@ -125,8 +134,9 @@ main {
 }
 
 .producto-imagen {
-    max-width: 100%;
-    border-radius: 3rem;
+    max-width: 70%;
+    border-radius: 4rem;
+    margin-left: 65px;
 }
 
 .producto-detalles {
@@ -177,7 +187,7 @@ main {
 
 .carrito-vacio,
 .carrito-comprado {
-    color: var(--clr-main);
+    color: var(--clr-black);
 }
 
 .carrito-productos {
@@ -191,7 +201,7 @@ main {
     justify-content: space-between;
     align-items: center;
     background-color: var(--clr-gray);
-    color: var(--clr-main);
+    color: var(--clr-black);
     padding: .5rem;
     padding-right: 1.5rem;
     border-radius: 1rem;
@@ -223,7 +233,7 @@ main {
     background-color: var(--clr-gray);
     padding: 1rem;
     border-radius: 1rem;
-    color: var(--clr-main);
+    color: var(--clr-black);
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -236,7 +246,7 @@ main {
     display: flex;
     background-color: var(--clr-gray);
     padding: 1rem;
-    color: var(--clr-main);
+    color: var(--clr-black);
     text-transform: uppercase;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
@@ -247,7 +257,7 @@ main {
     border: 0;
     background-color: var(--clr-main);
     padding: 1rem;
-    color: var(--clr-white);
+    color: var(--clr-black);
     text-transform: uppercase;
     cursor: pointer;
     border-top-right-radius: 1rem;
@@ -255,6 +265,7 @@ main {
 }
 
 .boton-volver{
+    color: var(--clr-black);
     margin-bottom: 15px;
 }
 
