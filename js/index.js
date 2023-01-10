@@ -120,7 +120,7 @@ const productos = [
       precio: 200000
   },
   {
-      id: "xbox-series-5",
+      id: "xbox-series5",
       titulo: "Xbox Series 5",
       imagen: "./img/xboxseries5.jpg",
       categoria: {
